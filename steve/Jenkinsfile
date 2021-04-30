@@ -1,0 +1,24 @@
+pipeline {​
+    agent {​
+        label 'kaniko'​
+    }​
+    stages {​
+     stage('Clone project') {​
+         steps {​
+             checkout([$class: 'GitSCM', branches: [[name: '*/master']], userRemoteConfigs: [[url: 'https://github.com/stevshil/CDDBAPI.git']]])​
+         }​
+     }​
+     stage('Build') {​
+        steps {​
+            container(name: 'kaniko') {​
+                sh '/kaniko/executor -f `pwd`/Build_Containers/Dockerfile-cdapi -c `pwd` --no-push'​
+            }​
+        }​
+     }​
+      stage('Publish') {​
+        steps {​
+          echo 'Publish to our software repository'​
+        }​
+      }​
+    }​
+}​
