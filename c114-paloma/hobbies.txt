@@ -1,4 +1,5 @@
 reading,
 knitting, 
 painting, 
-baking
+baking,
+sleeping
