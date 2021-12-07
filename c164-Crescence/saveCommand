@@ -1,0 +1,24 @@
+    1  https://github.com/The-Software-Guild/sre-git-refresh.git
+    2  git clone https://github.com/The-Software-Guild/sre-git-refresh.git
+    3  dir
+    4  dir sre-git-refresh
+    5  mkdir c164-Crescence
+    6  dir sre-git-refresh
+    7  notepad myfile.txt
+    8  ls
+    9  cd c164-Crescence/
+   10  cd
+   11  cd sre-git-refresh/
+   12  mkdir c164-Crescence
+   13  cd c164-Crescence
+   14  notepad myfile.txt
+   15  git commit -m "My first commit"
+   16  git add.
+   17  git add .
+   18  git commit -m "My first commit"
+   19  git push
+   20  git push
+   21  git pull
+   22  git push
+   23  history
+   24  history > saveCommand
