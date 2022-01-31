@@ -1,2 +1,0 @@
-This is my text file.
-This is a change to my file.
