@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+this is some data
+=======
+type something quick
+>>>>>>> fd70b1182018ff415da99c76e58ec536e98080e6
