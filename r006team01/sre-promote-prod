@@ -23,7 +23,7 @@ pipeline {
       steps {
           container(name: 'awscli') {
             script {
-              buildNumber = Jenkins.instance.getItem('sre-orderbook').lastSuccessfulBuild.number
+              buildNumber = Jenkins.instance.getItem('r006team01').lastSuccessfulBuild.number
             }
             sh '''
             export AWS_DEFAULT_REGION=us-east-1
