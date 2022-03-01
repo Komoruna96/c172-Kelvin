@@ -67,7 +67,6 @@ pipeline {
             2) echo "DB failed to push to repository"
                ;;
             3) echo "AC failed to push to repository"
-                ;;
             12) echo "API and DB failed to push to repository"
                ;;
             13) echo "API and AC failed to push to repository"
